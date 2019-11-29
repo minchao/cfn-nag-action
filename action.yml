@@ -1,0 +1,9 @@
+name: 'cfn-nag-action'
+author: 'Minchao <minchao.220@gmail.com>'
+description: 'GitHub Action for cfn_nag'
+branding:
+  icon: 'check-circle'
+  color: 'yellow'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
